@@ -1,0 +1,100 @@
+.container{
+    
+    margin-left: 120px;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    font-weight: 650;
+    margin: 4px 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #393b44;
+    border: 2px solid #d6e0f0;
+}
+.button:hover{
+    background-color: #393b44;
+    color:white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.register{
+    width: 305px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Segoe UI';
+    font-weight: 650;
+    margin: 4px 120px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: #393b44;
+    border: 2px solid #d6e0f0;   
+}
+.register:hover{
+    background-color: #393b44;
+    color:white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+label{
+    color: #393b44;
+    font-family: 'Segoe UI';
+    margin-left: 120px;
+}
+input[type=email] {
+  width: 370px;
+  padding: 12px 20px;
+  margin: 8px 120px;
+  box-sizing: border-box;
+  border: 2px solid #8d93ab;
+  border-radius: 4px;
+}
+input[type=password] {
+  width: 370px;
+  padding: 12px 20px;
+  margin: 8px 120px;
+  box-sizing: border-box;
+  border: 2px solid #8d93ab;
+  border-radius: 4px;
+}
+input[type=text] {
+    width: 370px;
+    padding: 12px 20px;
+    margin: 8px 120px;
+    box-sizing: border-box;
+    border: 2px solid #8d93ab;
+    border-radius: 4px;
+  }
+h1.heading1{
+    margin-top: 3%;
+    margin-left: 120px;
+    display: flex;
+    font-size:60px;
+    font-family: 'Segoe UI';
+    color: #393b44;
+}
+h1.heading2{
+    font-family: 'Segoe UI';
+    font-size:50px;
+    color:#393b44;
+    margin-left: 120px;
+    margin-top:3%;
+}
+h2{
+   font-family: 'Segoe UI'; 
+   color: #393b44; 
+   margin-left: 120px; 
+   margin-top:80px;
+}
